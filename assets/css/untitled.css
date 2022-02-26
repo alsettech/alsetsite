@@ -2,3 +2,25 @@
   color: #fed136 !important;
 }
 
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+  color: #000;
+  background-color: var(--bs-orange);
+  border-color: #fed64a;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: var(--bs-yellow) !important;
+  border-color: #fec810 !important;
+  color: #fff;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--bs-orange);
+  border-color: #fed136;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
